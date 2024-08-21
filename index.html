@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge_ALURAONE</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo_alura" src="assets/Logo_Alura.png" alt="logo alura azul">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="text_area" cols="41" rows="4" placeholder="Digite aqui seu texto..."></textarea>
+            <div class="requisitos">
+                <img class="exclamacao" src="assets/exclamacao.png" alt="ponto de exclamação">
+                <h6 class="mensagem_requisitos">Apenas letras minúsculas e sem acento!</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+         </section>
+         <section>   
+            <div class="mensagem-container">
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+                <div>
+                    <h6 class="mensagem_aviso">Nenhuma mensagem encontrada.</h6>
+                    <p class="container_digite">Digite um texto que você deseja <br>criptografar ou descriptografar.</p>
+                </div>
+            </div>
+                <button class="btn_copiar" onclick="btnCopiar()">Copiar</button>
+         </section>    
+    </main>
+    
+    <footer class="rodape">
+        <p>Criado por Mário Cabral - ALURA/ONE - Turma 7 - agosto de 2024.</p>
+    </footer>
+    <script src="challenge.js"></script>
+</body>
+
+</html>

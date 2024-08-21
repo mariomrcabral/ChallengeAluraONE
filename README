@@ -1,0 +1,60 @@
+Desafio - Challenge - ALURA/ONE - Decodificador de texto
+
+Este programa tem por objetivo a encriptação e descriptação da entrada
+de dados, que podem ser palavras simples, textos, nomes, obedecendo os
+seguintes requisitos
+
+Requisitos:
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
+As "chaves" de criptografia que utilizaremos são:
+A letra "e" é convertida para "enter"
+A letra "i" é convertida para "imes"
+A letra "a" é convertida para "ai"
+A letra "o" é convertida para "ober"
+A letra "u" é convertida para "ufat"
+
+Por exemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
+
+A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
+O resultado deve ser exibido na tela.
+
+Extras:
+- Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção
+ "copiar" do menu dos aplicativos. Após o conteúdo do campo ter sido copiado para área de transferencia, basta somente ctrl+v para copiar para o campo de entrada
+ e com esta informação inserida basta clicar no botão de descritografar
+
+Foi desenvolvido utilizando-se HTML-5, CSS e Javascript
+O acompanhamento do projeto foi todo em TRELLO
+Todo o conteúdo de aprendizado de Lógica de Programação foi da ALURA, dentro do projeto ONE - Oracle Next Education
+
+Tentei dividir em seções dentro do HTML, deixando separado os módulos de entrada de dados e de saída, criando classes para cada um dos elementos,
+possibilitando assim trabalhar melhor na parte de configuração e layout no CSS e por fim o programa em JS contendo as funções de criptografia e
+descriptografia
+
+Pesquisando e com ajuda dos colegas via DISCORD, consegui criar um simples função qie verifica se a plavra tem caracter especial ou acentuação e mesmo caso seja inserido
+letrar maiúsculas, a saida sempre será em caracteres minúsculos, onde foi utilizado toLowerCase().
+
+Breve Biografia
+Me chamo Mário Machado Rodrigues Cabral, tenho 56 anos de idade, dos quais 31 de TI.
+Em início de carreira comecei como programador, clipper, basic, pascar, C++, SQL, FoxPro...
+Depois me voltei mais para a parte de infraestrutura, suporte, servidores, redes, storages, nos mais
+variados sistemas operacionais, agora depois de 28 anos em uma mesma empresa estou de volta a programação,
+entre outros que estou me atualizando como IA, Cloud, Python, BI, enfim tudo de interessante e moderno que
+temos atualmente em tecnologia, obrigado a todos que se dispuseram a ler um pouco da minha história.
+
+Fiquem a vontade para utilizar o código aqui liberado, pois acredito que poderá ser útil para início de estudos e programaçao, assim
+como está sendo para mim. 
+
+Mário Cabral
+https://www.linkedin.com/in/mariomrcabral/
+
+
+
+
+
+
